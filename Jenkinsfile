@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('Build') {
       steps {
-        sh 'mvn clean install'
+        echo 'hello this is your jenkins file'
       }
     }
   }
