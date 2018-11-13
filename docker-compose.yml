@@ -1,0 +1,6 @@
+mysite:
+    container_name: mysite
+    image: mysite
+    hostname: mysite
+    ports:
+      - "5000:5000"
