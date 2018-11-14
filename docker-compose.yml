@@ -1,6 +1,6 @@
 mysite:
-    container_name: mysite
-    image: mysite
-    hostname: mysite
+    container_name: cat-gif
+    image: cat-gif
+    hostname: cat-gif
     ports:
       - "5000:5000"
